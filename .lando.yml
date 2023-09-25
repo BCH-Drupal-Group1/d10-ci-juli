@@ -1,0 +1,6 @@
+name: druppel10live
+recipe: pantheon
+config:
+  framework: drupal8
+  site: druppel10live
+  id: 7a3f3078-9efd-41ec-926b-ebb0fe0ecd0d

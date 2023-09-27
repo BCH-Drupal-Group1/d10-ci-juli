@@ -1,4 +1,4 @@
-![example workflow](https://github.com/BCH-Drupal-Group1/d10-ci-juli/actions/workflows/deploy-to-pantheon.yml/badge.svg)
+[![Deploy to Pantheon](https://github.com/BCH-Drupal-Group1/d10-ci-juli/actions/workflows/deploy-to-pantheon.yml/badge.svg)](https://github.com/BCH-Drupal-Group1/d10-ci-juli/actions/workflows/deploy-to-pantheon.yml)
 
 # Drupal 10 Site on Pantheon
 

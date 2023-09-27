@@ -1,24 +1,13 @@
-# Composer-enabled Drupal template
+![example workflow](https://github.com/BCH-Drupal-Group1/d10-ci-juli/actions/workflows/deploy-to-pantheon.yml/badge.svg)
 
-Hello World! Again! x2 Will it work keke
+# Drupal 10 Site on Pantheon
 
-This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams
-that work with the Platform's Integrated Composer build process. It is also the
-Platform's standard Drupal 9 upstream.
+This repository contains the codebase for a Drupal 10 website hosted on Pantheon. The repository is set up with a CI/CD pipeline using GitHub Actions to automatically deploy changes to Pantheon when code is pushed to the `main` branch.
 
-Unlike with earlier Pantheon upstreams, files such as Drupal Core that you are
-unlikely to adjust while building sites are not in the main branch of the 
-repository. Instead, they are referenced as dependencies that are installed by
-Composer.
+## GitHub Actions Pipeline
 
-For more information and detailed installation guides, please visit the
-Integrated Composer Pantheon documentation: https://pantheon.io/docs/integrated-composer
+The repository has a GitHub Actions pipeline set up for automated deployments to Pantheon. The pipeline is triggered when code is pushed to the `main` branch.
 
-## Contributing
+## Live Site
 
-Contributions are welcome in the form of GitHub pull requests. However, the
-`pantheon-upstreams/drupal-composer-managed` repository is a mirror that does not
-directly accept pull requests.
-
-Instead, to propose a change, please fork [pantheon-systems/drupal-composer-managed](https://github.com/pantheon-systems/drupal-composer-managed)
-and submit a PR to that repository.
+https://dev-druppel10live.pantheonsite.io/
